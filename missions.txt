@@ -1,0 +1,62 @@
+Compte Rendu – Utilisation de Git et GitHub pour le Portfolio
+1. Initialisation du projet Git
+Pour commencer, j’ai initialisé Git dans mon dossier de portfolio avec la commande :
+
+
+git init
+J’ai rencontré un problème à cette étape, mais grâce à l’aide de Rahim, j’ai pu le résoudre.
+
+Ensuite, j’ai ajouté tous les fichiers du projet au suivi Git avec :
+
+
+git add .
+Puis, j’ai effectué un premier commit en ajoutant un message décrivant l’action réalisée :
+
+
+git commit -m "Portfolio initialisation"
+Pour cette partie, je me suis appuyé sur les explications trouvées sur le site du professeur.
+
+2. Lien avec GitHub et mise en ligne du projet
+Afin de publier mon projet sur GitHub, j’ai commencé par lier mon dépôt local à un dépôt distant avec la commande suivante :
+
+
+git remote add origin <URL_du_dépôt_GitHub>
+L’URL du dépôt a été copiée depuis GitHub. Une fois le lien établi, j’ai envoyé mon projet en ligne avec :
+
+
+git push -u origin master
+Cette commande a permis de transférer mon projet sur GitHub et d’établir un lien de suivi entre la branche locale et la branche distante.
+
+3. Clonage du repository du binôme
+Mon binôme m’a ajouté comme collaborateur sur son dépôt GitHub en allant dans "Settings" > "Collaborators".
+
+Une fois ajouté, j’ai pu cloner son repository avec la commande :
+
+
+git clone <URL_du_dépôt_de_mon_binôme>
+Cependant, lors de ma première tentative, j’ai fait une erreur en tapant mal le nom du repository, ce qui a entraîné un message d’erreur. Après avoir corrigé l’URL, j’ai réussi à cloner le projet correctement.
+
+4. Création et mise à jour de la documentation
+J’ai décidé de créer une branche dédiée à la documentation afin d’organiser les modifications. J’ai donc exécuté la commande suivante :
+
+
+git checkout -b documentation
+Dans cette branche, j’ai ajouté un fichier readme.md contenant une description du projet.
+
+Ensuite, j’ai ajouté et validé mes modifications avec :
+
+
+git add readme.md
+git commit -m "Ajout du fichier readme.md"
+Puis, j’ai envoyé cette branche sur GitHub avec :
+
+
+git push origin documentation
+Enfin, j’ai vérifié que la branche apparaissait bien sur le dépôt distant.
+
+5. Création et fusion d’une Pull Request
+Sur GitHub, j’ai ouvert une Pull Request (PR) pour proposer l’intégration de ma branche documentation dans la branche main.
+
+Mon binôme a ensuite examiné et validé la PR en cliquant sur "Merge pull request", ce qui a permis d’intégrer mes modifications à la branche principale du projet.
+
+Comme demandé, nous avons laissé la branche documentation visible après la fusion.
