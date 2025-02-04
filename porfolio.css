@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background-color: #f4f4f4; 
+}
+
+header {
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url("https://img.freepik.com/vecteurs-libre/fond-arriere-plan-brillant_1390-34.jpg?t=st=1738076997~exp=1738080597~hmac=f2f8c00a3012988c710695baadef8f23f0e07dc05617184426972673fc40c899&w=1380");
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.acceuil {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.acceuil_img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero-content {
+    font-size: 2em;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Section spécifique */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section avec une ombre légère pour un effet boîte */
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    background: #f8f8f8;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajout d'un espacement pour améliorer la lisibilité */
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
